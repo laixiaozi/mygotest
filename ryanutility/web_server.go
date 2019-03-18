@@ -8,9 +8,7 @@ import (
 	"net/http"
 )
 
-/**
-* 启动一个监听端口
- */
+//WebServerStart  启动一个监听端口
 func WebServerStart() {
 	fmt.Println("启动一个web服务端口")
 	HelloWorld := func(w http.ResponseWriter, r *http.Request) {
