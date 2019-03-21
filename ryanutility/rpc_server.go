@@ -18,5 +18,5 @@ func RpcServerStart() {
 		fmt.Println("rpc http serve err :", err)
 		return
 	}
-	 http.Serve(listen, nil)
+	http.Serve(listen, nil)
 }

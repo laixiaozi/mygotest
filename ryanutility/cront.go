@@ -33,8 +33,8 @@ func HandlCrontAndStop() {
 			fmt.Printf("done: \n")
 		case t := <-Myticker.C:
 			fmt.Println("current :", t)
-		//default:
-		//	fmt.Println("default now ", time.Now().Unix())
+			//default:
+			//	fmt.Println("default now ", time.Now().Unix())
 		}
 	}
 
